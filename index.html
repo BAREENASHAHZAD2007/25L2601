@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaWear - Modest Fashion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\baree\Downloads\ChatGPT Image Nov 9, 2025, 10_00_39 PM.png" alt="NovaWear Logo" />
+            <h1>NovaWear</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#join">Join Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Elegant & Modest Fashion</h2>
+            <p>Discover comfort, style, and confidence in every outfit.</p>
+            <a href="#collection" class="btn">Explore Collection</a>
+        </section>
+
+        <section id="collection" class="grid-section">
+            <h2>Our Collection</h2>
+            <div class="grid">
+                <article class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQegA3O-R6IkrzruOV1AzepZBtE1JUql0WA1g&s.jpg" alt="Elegant Top">
+                    <h3>Elegant Top</h3>
+                    <p>Perfect for casual and office wear.</p>
+                </article>
+                <article class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCpRes_MEag2-zDc59eGenu2zax-2aNbO_aQ&s.jpg" alt="Comfortable Bottom">
+                    <h3>Comfortable Bottom</h3>
+                    <p>Soft fabric, stylish design.</p>
+                </article>
+                <article class="card">
+                    <img src="https://m.media-amazon.com/images/I/718-EUWfwRL._AC_UY350_.jpg.jpg" alt="Premium Headscarf">
+                    <h3>Premium Headscarf</h3>
+                    <p>Lightweight & colorful.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="join" class="form-section">
+            <h2>Join Our Newsletter</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <fieldset>
+                    <legend>Interests</legend>
+                    <label><input type="checkbox" name="interests" value="tops"> Tops</label>
+                    <label><input type="checkbox" name="interests" value="bottoms"> Bottoms</label>
+                    <label><input type="checkbox" name="interests" value="scarves"> Scarves</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Subscription Type</legend>
+                    <label><input type="radio" name="subscription" value="weekly" required> Weekly</label>
+                    <label><input type="radio" name="subscription" value="monthly"> Monthly</label>
+                </fieldset>
+                <div class="form-group">
+                    <label for="plan">Select Your Plan</label>
+                    <select id="plan" name="plan">
+                        <option value="basic">Basic</option>
+                        <option value="premium">Premium</option>
+                        <option value="vip">VIP</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 NovaWear. All rights reserved.</p>
+    </footer>
+</body>
+</html>
